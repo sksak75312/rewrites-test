@@ -3,11 +3,11 @@
 import Image from 'next/image';
 
 export default function Home() {
-  (async () => {
-    const res = await fetch('https://randomuser.me/api/');
-    const data = await res.json();
-    console.log('沒有 REWRITES',data);
-  })();
+  // (async () => {
+  //   const res = await fetch('https://randomuser.me/api/');
+  //   const data = await res.json();
+  //   console.log('沒有 REWRITES',data);
+  // })();
 
   (async () => {
     const res = await fetch('/udn?gender=female');
